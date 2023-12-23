@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>关于我</title><url>/about.html</url><categories/><tags/><content type="html"> AI之路 AIGC已经成为我生活的重要组成部分，我在这里记录了我在AI领域的一些经验，以及我对AI的一些思考。
-其他渠道： Github 公众号：小猿编程秘籍 民族风情园 民族风情园致力于一个汇聚、分享知识的风情园。
+其他渠道： Github 公众号：小猿编程秘籍 风情园 风情园致力于一个汇聚、分享知识的风情园。
 知识如同一座宝库，不断挖掘，方能收获智慧之光。
 风情园各园：编程、读书、AI、生活、财富、杂货</content></entry><entry><title>Prompt的指导准则，你学会了吗？</title><url>/post/2/</url><categories><category>AI</category></categories><tags><tag>Prompt</tag></tags><content type="html"><![CDATA[  1、AI名词解释 先来解释一些AI名词：
 名词 解释 AGI 通用人工智能 AI 人工智能 AIGC 生成式AI ANI 狭义人工智能 ASI 人工超级智能 Fine-Tuning 微调 Few-Shot 少样本学习 Zero-Shot 零样本学习 2、Prompt Engineering学习 今日重点说说这个 Prompt Engineering（提示工程）：
