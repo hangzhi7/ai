@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>关于我</title><url>/about.html</url><categories/><tags/><content type="html"> AI之路 AIGC已经成为我生活的重要组成部分，我在这里记录了我在AI领域的一些经验，以及我对AI的一些思考。
 其他渠道： Github 公众号：小猿编程秘籍 风情园 风情园致力于一个汇聚、分享知识的风情园。
 知识如同一座宝库，不断挖掘，方能收获智慧之光。
-风情园各园：编程、读书、AI、生活、财富、杂货</content></entry><entry><title>Prompt的指导准则，你学会了吗？</title><url>/post/2/</url><categories><category>AI</category></categories><tags><tag>Prompt</tag></tags><content type="html"><![CDATA[  1、AI名词解释 先来解释一些AI名词：
+风情园各园：编程、读书、AI、生活、财富、杂货</content></entry><entry><title>GPT大模型不再遥不可及：本地化部署让每个人都能拥有</title><url>/post/3/</url><categories><category>AI</category></categories><tags><tag>大模型</tag></tags><content type="html"> 01、本地化部署是GPT发展的一个趋势 我们提到大模型就想到这个东西不是我们普通人可以拥有的，因为太耗费服务器资源，注定了可以提供大模型服务的只能是大厂。
+然而有需求就会有解决方案，那就是让大语言模型对特定地区的行业和专业领域有较强的知识储备，使其大而全，变为小而精。无论是医学、法律、金融还是其他行业，搭建专有的知识库解答问题、提供专业建议，就像一个行业内的专家。
+本地化部署有以下几个优势：
+1、数据完全私有化，降低数据丢失和泄露风险，对数据安全性和私密性有保障。
+2、降低使用成本，不需要支付云服务商的订阅费用或按量计费。
+3、提高使用灵活性，可以根据自己的需求定制大模型的功能和参数。
+4、提高使用效率，不受网络延迟和稳定性的影响。
+目前已经有许多支持本地化的大模型，我推荐几个开源的好用的项目：
+02、RWKV-Runner 介绍 RWKV是一个开源且允许商用的大语言模型，灵活性很高且极具发展潜力。
+这个工具旨在降低大语言模型的使用门槛，做到人人可用，工具提供了全自动化的依赖和模型管理，你只需要直接点击运行，跟随引导，即可完成本地大语言模型的部署，工具本身体积极小，只需要一个exe即可完成一键部署。
+此外，本工具提供了与OpenAI API完全兼容的接口，这意味着你可以把任意ChatGPT客户端用作RWKV的客户端，实现能力拓展，而不局限于聊天。
+功能
+RWKV模型管理，一键启动 与OpenAI API完全兼容，一切ChatGPT客户端，都是RWKV客户端。启动模型后，打开 http://127.0.0.1:8000/docs 查看详细内容 全自动依赖安装，你只需要一个轻巧的可执行程序 预设了2G至32G显存的配置，几乎在各种电脑上工作良好 自带用户友好的聊天和续写交互页面 易于理解和操作的参数配置 内置模型转换工具 内置下载管理和远程模型检视 内置一键LoRA微调 也可用作 OpenAI ChatGPT 和 GPT Playground 客户端 多语言本地化 主题切换 自动更新 界面 项目地址：https://github.com/josStorer/RWKV-Runner
+03、ChatGLM3 介绍 ChatGLM3 是智谱AI和清华大学 KEG 实验室联合发布的新一代对话预训练模型。ChatGLM3-6B 是 ChatGLM3 系列中的开源模型，在保留了前两 …</content></entry><entry><title>Prompt的指导准则，你学会了吗？</title><url>/post/2/</url><categories><category>AI</category></categories><tags><tag>Prompt</tag></tags><content type="html"><![CDATA[  1、AI名词解释 先来解释一些AI名词：
 名词 解释 AGI 通用人工智能 AI 人工智能 AIGC 生成式AI ANI 狭义人工智能 ASI 人工超级智能 Fine-Tuning 微调 Few-Shot 少样本学习 Zero-Shot 零样本学习 2、Prompt Engineering学习 今日重点说说这个 Prompt Engineering（提示工程）：
 它是人工智能中的一个概念，特别是自然语言处理（NLP）。
 在提示工程中，任务的描述会被嵌入到输入中。
