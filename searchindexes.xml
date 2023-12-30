@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>关于我</title><url>/about.html</url><categories/><tags/><content type="html"> AI之路 AIGC已经成为我生活的重要组成部分，我在这里记录了我在AI领域的一些经验，以及我对AI的一些思考。
-其他渠道： Github 公众号：小猿编程秘籍 风情园 风情园致力于一个汇聚、分享知识的风情园。
-知识如同一座宝库，不断挖掘，方能收获智慧之光。
-风情园各园：编程、读书、AI、生活、财富、杂货</content></entry><entry><title>GPT大模型不再遥不可及：本地化部署让每个人都能拥有</title><url>/post/3/</url><categories><category>AI</category></categories><tags><tag>大模型</tag></tags><content type="html"> 01、本地化部署是GPT发展的一个趋势 我们提到大模型就想到这个东西不是我们普通人可以拥有的，因为太耗费服务器资源，注定了可以提供大模型服务的只能是大厂。
+其他渠道： Github 公众号：小猿编程秘籍</content></entry><entry><title>GPT大模型不再遥不可及：本地化部署让每个人都能拥有</title><url>/post/3/</url><categories><category>AI</category></categories><tags><tag>大模型</tag></tags><content type="html"> 01、本地化部署是GPT发展的一个趋势 我们提到大模型就想到这个东西不是我们普通人可以拥有的，因为太耗费服务器资源，注定了可以提供大模型服务的只能是大厂。
 然而有需求就会有解决方案，那就是让大语言模型对特定地区的行业和专业领域有较强的知识储备，使其大而全，变为小而精。无论是医学、法律、金融还是其他行业，搭建专有的知识库解答问题、提供专业建议，就像一个行业内的专家。
 本地化部署有以下几个优势：
 1、数据完全私有化，降低数据丢失和泄露风险，对数据安全性和私密性有保障。
