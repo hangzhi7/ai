@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>AI的迭代速度不敢想象，学不完根本学不完</title><url>/post/4/</url><categories><category>AI</category></categories><tags><tag>AI工具</tag><tag>AI产品</tag><tag>AI学习资料</tag></tags><content type="html"> 作为一个典型的技术宅程序猿，那对学习技术心态就像蜜蜂采花蜜一样，从浩瀚的知识海洋中汲取精华，从而充实自己的技能库。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>搭建本地大模型和知识库最简单的方法</title><url>/post/5/</url><categories><category>AI</category></categories><tags><tag>大模型</tag><tag>Ollama</tag><tag>open-webui</tag><tag>anything-llm</tag></tags><content type="html"> 01、本地大模型越来越简单 经过了一年多时间的迭代，大模型种类繁多，使用也越来越简单了。
+在本地跑大模型，个人认为目前最好的软件肯定是Ollama无疑了，
+不管你是在PC上跑大模型，在Mac上跑大模型，还有在树莓派上跑大模型，
+我们都可以用Ollama去跑各种大大小小的模型，而且它的扩展性非常强。
+02、Ollama本地运行大模型 现在安装Ollama超级简单的，只需要进入 Ollama官网下载 安装包，然后安装即可。
+以下是我个人安装为例（macOS系统）：
+1、下载 2、安装 直接点击Next：
+3、命令查看 4、运行 其他说明 如果自己不确定模型名称可以去官网查看 模型 每款大模型都有不同版本，根据自己的机器来选择，根据官网的文档也说明了，一般7B的模型至少需要8G的内存，13B的模型至少需要16G内存，70B的模型至少需要64G内存。
+03、使用Web UI界面连接Ollama ollama没有界面化的页面使用，它是在终端里交互的，所有我们要使用图形化的界面里去操作，这是我们可以使用Open WebUI。
+Open WebUI是一个开源的Web UI界面，github地址：https://github.com/open-webui/open-webui
+1、下载和运行 使用Docker方式运行Open WebUI，直接一条命令解决下载和运行：
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main 命令解释：
+-d：后台运行 -p 3000:8080：将容器的8080端口映射到主机的3000端口 --add-host=host.docker.internal:host-gateway：添加主机映射，用于访问主机的Docker容器 -v open-webui:/app/backend/data：将主机的open-webui目录映射到容器的/app/backend/data目录 --name open-webui：设置容器名称 --restart always：设置容器总是重 …</content></entry><entry><title>AI的迭代速度不敢想象，学不完根本学不完</title><url>/post/4/</url><categories><category>AI</category></categories><tags><tag>AI工具</tag><tag>AI产品</tag><tag>AI学习资料</tag></tags><content type="html"> 作为一个典型的技术宅程序猿，那对学习技术心态就像蜜蜂采花蜜一样，从浩瀚的知识海洋中汲取精华，从而充实自己的技能库。
 在过年期间OpenAI发布了人工智能文生视频大模型Sora时，行业内一片惊讶AI的技术和迭代速度可真快，虽然当时没有产品可以体验，但是以国内的应用能力应该不久后就会有产品推出，离这个消息一个月后有零星几个产品出来，有点不敢想象了。
 作为我个人那肯定是默默去学习相关AI知识，作为主技能是Java语言，经历过近几年jdk迭代超级快，一直追着从jdk9学到了jdk21发现这东西迭代太快，好多版本都是一个过度期，学不完根本学不完的。
 这次我学习AI就没那么一直追着学习了，从去年3月份就开始学Python基础知识和大模型基础知识，产品不管迭代多快，但最核心知识就是那些。
